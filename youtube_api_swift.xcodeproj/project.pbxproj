@@ -13,6 +13,10 @@
 		E30433A22708CF8900303A6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E30433A02708CF8900303A6C /* Main.storyboard */; };
 		E30433A42708CF8B00303A6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E30433A32708CF8B00303A6C /* Assets.xcassets */; };
 		E30433A72708CF8B00303A6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E30433A52708CF8B00303A6C /* LaunchScreen.storyboard */; };
+		E30433AF2708E25A00303A6C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30433AE2708E25A00303A6C /* Constants.swift */; };
+		E30433B12708E3FA00303A6C /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30433B02708E3FA00303A6C /* Video.swift */; };
+		E30433B32708E48800303A6C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30433B22708E48800303A6C /* Model.swift */; };
+		E30433B52708ECCA00303A6C /* ConstantsTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30433B42708ECCA00303A6C /* ConstantsTemplate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		E30433A32708CF8B00303A6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E30433A62708CF8B00303A6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E30433A82708CF8B00303A6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E30433AE2708E25A00303A6C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E30433B02708E3FA00303A6C /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		E30433B22708E48800303A6C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		E30433B42708ECCA00303A6C /* ConstantsTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTemplate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				E30433A32708CF8B00303A6C /* Assets.xcassets */,
 				E30433A52708CF8B00303A6C /* LaunchScreen.storyboard */,
 				E30433A82708CF8B00303A6C /* Info.plist */,
+				E30433AE2708E25A00303A6C /* Constants.swift */,
+				E30433B02708E3FA00303A6C /* Video.swift */,
+				E30433B22708E48800303A6C /* Model.swift */,
+				E30433B42708ECCA00303A6C /* ConstantsTemplate.swift */,
 			);
 			path = youtube_api_swift;
 			sourceTree = "<group>";
@@ -137,9 +149,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E30433B52708ECCA00303A6C /* ConstantsTemplate.swift in Sources */,
 				E304339F2708CF8900303A6C /* ViewController.swift in Sources */,
 				E304339B2708CF8900303A6C /* AppDelegate.swift in Sources */,
 				E304339D2708CF8900303A6C /* SceneDelegate.swift in Sources */,
+				E30433B32708E48800303A6C /* Model.swift in Sources */,
+				E30433AF2708E25A00303A6C /* Constants.swift in Sources */,
+				E30433B12708E3FA00303A6C /* Video.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
