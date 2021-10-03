@@ -7,7 +7,13 @@
 
 import Foundation
 
+protocol ModelDelegate {
+    func videosFetched(_ videos: [Video])
+}
+
 class Model {
+    
+    var delegate: ModelDelegate?
     
     func getVideos() {
         
@@ -21,7 +27,7 @@ class Model {
         // Get a URLSession object
         let session = URLSession.shared
         
-        // Get a data task from the U RLSession object
+        // Get a data task from the URLSession object
         let dataTask = session.dataTask(with: url!) { data, response , error in
             
             // Check if there were any errors
@@ -35,6 +41,15 @@ class Model {
                 decoder.dateDecodingStrategy = .iso8601
                 
                 let response = try decoder.decode(Response.self, from: data!)
+                
+                if response.items != nil {
+                    
+                    DispatchQueue.main.async {
+                        // Call delegate method
+                        self.delegate?.videosFetched(response.items!)
+                    }
+                    
+                }
                 
                 dump(response)
             }
