@@ -20,6 +20,7 @@
 		E30433B72708F6EB00303A6C /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30433B62708F6EB00303A6C /* Response.swift */; };
 		E3F0907F2709C8FF001A2CE5 /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F0907E2709C8FF001A2CE5 /* VideoTableViewCell.swift */; };
 		E3F090872709E199001A2CE5 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F090862709E199001A2CE5 /* CacheManager.swift */; };
+		E3F090892709EB75001A2CE5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F090882709EB75001A2CE5 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		E30433B62708F6EB00303A6C /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		E3F0907E2709C8FF001A2CE5 /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
 		E3F090862709E199001A2CE5 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		E3F090882709EB75001A2CE5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				E304339E2708CF8900303A6C /* ViewController.swift */,
+				E3F090882709EB75001A2CE5 /* DetailViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3F090892709EB75001A2CE5 /* DetailViewController.swift in Sources */,
 				E30433B72708F6EB00303A6C /* Response.swift in Sources */,
 				E30433B52708ECCA00303A6C /* ConstantsTemplate.swift in Sources */,
 				E304339F2708CF8900303A6C /* ViewController.swift in Sources */,
@@ -357,7 +361,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H2B97KAT4Q;
 				INFOPLIST_FILE = youtube_api_swift/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -377,7 +381,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H2B97KAT4Q;
 				INFOPLIST_FILE = youtube_api_swift/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
